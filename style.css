@@ -4,7 +4,7 @@
 }
 .btn-1{
     background-color: rgb(68, 146, 68); 
-    color: white;
+    color: white !important;
 }
 .nav-link:hover{
     color: rgb(68, 146, 68) !important;
@@ -27,19 +27,24 @@
     background-color: #FFC94A !important;
 }
 .carousel-item img{
-    height: 100% !important;
+   height: 100vh;
     width: 100% !important;
     object-fit: cover !important;
     
 }
+@media  only screen and (min-width: 200px) and (max-width: 991px) {
+    .carousel-item img{
+        height: 70vh;
+    } 
+}
 .carousel-caption{
-    padding-bottom: 8rem !important;
+    padding-bottom: 5rem !important;
 }
 
 
 @media  only screen and (min-width: 200px) and (max-width: 600px) { 
     .carousel-caption{
-      top: 5rem !important;
+      top: 8rem !important;
     }
  }
  @media  only screen and (min-width: 601px) and (max-width: 991px) { 
@@ -66,4 +71,18 @@
    }
    .carousel-caption h5{
     font-size: 2vw !important;
+   }
+
+   /* We Help Our Clients  */
+   .wehelp{
+        margin-top: 7vw;
+        margin-left: -7vw;
+        margin-bottom: 7vw;
+   }
+   @media  only screen and (min-width: 200px) and (max-width: 991px) { 
+    .wehelp{
+        margin-top: 7vw;
+       margin-left: 0;
+        margin-bottom: 7vw;
+   }
    }
