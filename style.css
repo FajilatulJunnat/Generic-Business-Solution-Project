@@ -1,0 +1,64 @@
+/* navber */
+.btn-1:hover{
+ background-color: black;
+}
+.btn-1{
+    background-color: rgb(68, 146, 68); 
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(68, 146, 68) !important;
+}
+.nav-link.active{
+    color: rgb(68, 146, 68) !important;  
+}
+.offcanvas-header{
+    background-color: #FFC94A !important ;
+}
+/* carousel */
+.carousel-indicators button {
+    height: 15px !important;
+    width: 15px !important;
+    /* margin: 0px 10px !important; */
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255) !important;
+}
+.carousel-indicators .active{
+    background-color: #FFC94A !important;
+}
+.carousel-item img{
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    
+}
+.carousel-caption{
+    padding-bottom: 8rem !important;
+}
+
+
+@media  only screen and (min-width: 200px) and (max-width: 991px) { 
+    .carousel-caption{
+        padding-bottom: 1rem !important;
+    }
+ }
+ .btn-2{
+    background-color: white;
+    font-size: 3vh !important;
+ }
+ @media  only screen and (min-width: 200px) and (max-width: 991px) {
+    .btn-2{
+        font-size: 2vh !important;
+    }
+  }
+
+ .btn-2:hover{
+    background-color: black;
+    color: white;
+   }
+   .carousel-caption h1{
+    font-size: 4vw !important;
+   }
+   .carousel-caption h5{
+    font-size: 2vw !important;
+   }
