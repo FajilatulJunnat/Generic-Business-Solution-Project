@@ -103,13 +103,25 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    
+    background-color: rgb(86, 86, 86);
+    position: relative;
 
+   }
+   .welcome::before{
+    background-size: cover;
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(59, 59, 59, 0.55)
    }
    .welcome-div{
     /* float: right; */
-    margin-left: 70%;
-    width: 30%;
+    margin-left: 60%;
+    width: 40%;
+   
     
    }
    @media  only screen and (min-width: 601px) and (max-width: 991px) { 
@@ -123,14 +135,16 @@
    }
    @media  only screen and (min-width: 200px) and (max-width: 600px) { 
     .welcome{
-        background-image: url(./client\ meet.jpg);
+        background-image: none;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center;
-      
-       
+       }
+       .welcome-div{
         
-    
+        margin-left: 0;
+        width: 100%;
+        
        }
 
    }
