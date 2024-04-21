@@ -86,3 +86,51 @@
         margin-bottom: 7vw;
    }
    }
+/* What Services */
+
+   .services:hover{
+    color: rgb(68, 146, 68) !important;
+   }
+   .service-card{
+    @media  only screen and (min-width: 200px) and (max-width: 991px) {
+       width: 50% !important;
+       text-align: center;
+    }
+   }
+   /* Welcome to Generic */
+   .welcome{
+    background-image: url(./client\ meet.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    
+
+   }
+   .welcome-div{
+    /* float: right; */
+    margin-left: 70%;
+    width: 30%;
+    
+   }
+   @media  only screen and (min-width: 601px) and (max-width: 991px) { 
+    .welcome-div{
+        /* float: right; */
+        margin-left: 60%;
+        width: 40%;
+        
+       }
+
+   }
+   @media  only screen and (min-width: 200px) and (max-width: 600px) { 
+    .welcome{
+        background-image: url(./client\ meet.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+      
+       
+        
+    
+       }
+
+   }
