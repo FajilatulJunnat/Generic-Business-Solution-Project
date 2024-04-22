@@ -103,7 +103,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    background-color: rgb(86, 86, 86);
+    
     position: relative;
 
    }
@@ -126,7 +126,7 @@
    }
    @media  only screen and (min-width: 601px) and (max-width: 991px) { 
     .welcome-div{
-        /* float: right; */
+      
         margin-left: 60%;
         width: 40%;
         
@@ -154,4 +154,37 @@
     color: white;
    }
    
-   /* Creating a Business */
+   /* We Follow */
+   .follow-div{
+    background-color: rgb(68, 146, 68) !important ;
+    color: white;
+   }
+/* Our Mission */
+   .bg-mission{
+    background-image: url(./bg-mission.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+   }
+   .bg-mission::before{
+    background-size: cover;
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(93, 72, 72, 0.55)
+   }
+   /* Business Solutions */
+   .find{
+    color:  rgb(68, 146, 68) !important;
+   }
+   .solution-img{
+    margin-right: -3vw;
+    margin-top: 7vw;
+    z-index: 1;
+    position: relative;
+   }
+   
