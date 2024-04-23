@@ -13,7 +13,7 @@
     color: rgb(68, 146, 68) !important;  
 }
 .offcanvas-header{
-    background-color: #FFC94A !important ;
+    background-color: #F1C93B !important ;
 }
 /* carousel */
 .carousel-indicators button {
@@ -24,7 +24,7 @@
     background-color: rgb(255, 255, 255) !important;
 }
 .carousel-indicators .active{
-    background-color: #FFC94A !important;
+    background-color: #F1C93B !important;
 }
 .carousel-item img{
    height: 100vh;
@@ -197,7 +197,7 @@
     color: white;
     transform: scale(1.2);
    }
-
+   /* Keep Your Business */
    .social-icon-1{
     background-color: rgb(68, 146, 68) !important ;
     transition: transform .5s ease;
@@ -205,3 +205,19 @@
    .social-icon-1:hover{
     transform: scale(1.2);
    }
+/* Volunteer */
+.Volunteer{
+    background-color: rgb(68, 146, 68) !important;
+   
+
+}
+.btn-3 {
+    background-color: #F1C93B !important;
+
+}
+.btn-3:hover{
+    background-color: black !important;
+}
+.Consulting{
+    background-color: #F1C93B  !important;
+}
