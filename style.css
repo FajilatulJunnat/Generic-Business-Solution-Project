@@ -188,3 +188,20 @@
     position: relative;
    }
    
+   /* Team Members */
+   .social-icon{
+    transition: transform .5s ease;
+   }
+   .social-icon:hover{
+    background-color: rgb(68, 146, 68) !important ;
+    color: white;
+    transform: scale(1.2);
+   }
+
+   .social-icon-1{
+    background-color: rgb(68, 146, 68) !important ;
+    transition: transform .5s ease;
+   }
+   .social-icon-1:hover{
+    transform: scale(1.2);
+   }
