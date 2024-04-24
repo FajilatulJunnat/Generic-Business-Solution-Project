@@ -229,3 +229,7 @@
 .work{
     background-color:  rgb(68, 146, 68) !important;
 }
+/* What’s New */
+.new:hover{
+    color:  rgb(68, 146, 68) !important;
+}
