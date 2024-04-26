@@ -237,3 +237,7 @@
 .need{
     background-color:  rgb(68, 146, 68) !important;  
 }
+/* footer */
+.link:hover{
+color: rgb(68, 146, 68) !important;
+}
