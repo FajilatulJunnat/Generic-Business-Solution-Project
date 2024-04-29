@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generic Business Solution</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- fontawsome link -->
     <script src="https://kit.fontawesome.com/88125b6bbe.js" crossorigin="anonymous"></script>
 
@@ -16,12 +20,12 @@
     <div class="container ">
       <a class="navbar-brand  fs-1 fw-bold" href="#">Generic
     </a>
-      <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header">
-          <h4 class="offcanvas-title" id="offcanvasNavbarLabel"> <span class="navbar-toggler-icon"></span>
+          <h4 class="offcanvas-title" id="offcanvasNavbarLabel"> <span class="navbar-toggler-icon "></span>
         </h4>
           <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
@@ -35,10 +39,13 @@
               <a class="nav-link pe-3 text-dark" href="#about">ABOUT US</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link pe-3 text-dark" href="#chef">SERVICE</a>
+                <a class="nav-link pe-3 text-dark" href="#service">SERVICE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link pe-3 text-dark" href="#menu">MENU</a>
+                <a class="nav-link pe-3 text-dark" href="#team">TEAM MEMBERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-3 text-dark" href="#gallery">GALLERY</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link pe-3 text-dark" href="#contact">CONTACT</a>
@@ -63,7 +70,7 @@
           <div class="carousel-caption text-center d-flex flex-column align-items-center  pe-lg-5">
             <h1 class="fw-bold w-75 mb-lg-5 mb-2">Business Solutions For
               All Enterprises</h1>
-            <h5 class="w-75 mb-lg-5 mb-2">Proin quis sem ex. Suspendisse tellus est,
+            <h5 class=" mb-lg-5 mb-2">Proin quis sem ex. Suspendisse tellus est,
               accumsan sit amet commodo.</h5>
             <button type="button" class=" btn   rounded-5 fw-bold p-lg-3 p-2 px-lg-4  btn-2">Read more</button>
           </div>
@@ -73,7 +80,7 @@
           <div class="carousel-caption text-center d-flex flex-column align-items-center  pe-lg-5">
             <h1 class="fw-bold w-75 mb-lg-5 mb-2">Business Solutions For
               All Enterprises</h1>
-            <h5 class="w-75 mb-lg-5 mb-2">Proin quis sem ex. Suspendisse tellus est,
+            <h5 class=" mb-lg-5 mb-2">Proin quis sem ex. Suspendisse tellus est,
               accumsan sit amet commodo.</h5>
             <button type="button" class=" btn   rounded-5 fw-bold p-lg-3 p-2 px-lg-4  btn-2">Read more</button>
           </div>
@@ -83,7 +90,7 @@
           <div class="carousel-caption text-center d-flex flex-column align-items-center  pe-lg-5">
             <h1 class="fw-bold w-75 mb-lg-5 mb-2">Business Solutions For
               All Enterprises</h1>
-            <h5 class="w-75 mb-lg-5 mb-2">Proin quis sem ex. Suspendisse tellus est,
+            <h5 class=" mb-lg-5 mb-2">Proin quis sem ex. Suspendisse tellus est,
               accumsan sit amet commodo.</h5>
             <button type="button" class=" btn   rounded-5 fw-bold p-lg-3 p-2 px-lg-4  btn-2">Read more</button>
           </div>
@@ -107,7 +114,7 @@
         <div class="card h-100 shadow border-0 ">
           <img src="./work-1.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center pt-4">
-            <h5 class="card-title fw-bold">Success fullfill</h5>
+            <h5 class="card-title fw-semibold">Success fullfill</h5>
             <p class="card-text">Etiam quiacuac metu facils
               loboreget at tor.
               
@@ -119,7 +126,7 @@
         <div class="card h-100 shadow border-0">
           <img src="./work-2.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center pt-4">
-            <h5 class="card-title fw-bold">StartUp Business</h5>
+            <h5 class="card-title fw-semibold">StartUp Business</h5>
             <p class="card-text">Etiam quiacuac metu facils
               loboreget at tor.</p>
           </div>
@@ -129,7 +136,7 @@
         <div class="card h-100 shadow border-0">
           <img src="./work-3.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center pt-4">
-            <h5 class="card-title fw-bold">Leadership Work</h5>
+            <h5 class="card-title fw-semibold">Leadership Work</h5>
             <p class="card-text">Etiam quiacuac metu facils
               loboreget at tor.</p>
           </div>
@@ -139,7 +146,7 @@
         <div class="card h-100 shadow border-0">
           <img src="./work-4.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center pt-4">
-            <h5 class="card-title fw-bold">Business Growth</h5>
+            <h5 class="card-title fw-semibold">Business Growth</h5>
             <p class="card-text">Etiam quiacuac metu facils
               loboreget at tor.</p>
           </div>
@@ -149,16 +156,16 @@
   </section>
 
   <!-- We Help Our Clients -->
-  <section class="bg-body-tertiary py-5">
+  <section class="bg-body-tertiary py-5" id="about">
    <div class="container d-flex py-5 flex-lg-row flex-column">
     <img src="./left-img-1.jpg" class="rounded-2">
     <div class="p-5 shadow bg-white wehelp">
-      <div class="p-5">
-        <h2 class="fw-bold pb-5">We Help Our Clients to Achieve Their Business Goal</h2>
+      <div class="p-5 text-lg-start text-center">
+        <h2 class="fw-semibold pb-5">We Help Our Clients to Achieve Their Business Goal</h2>
       <p class="pb-5">
         Etiam quis lacus ac metus facilisis lobortis eget at tort ororbi et arcu est. Duis convallis nisl eu vestibulum pel lentesqe. Aenean non dui sapien. Mauris ornare, nibha tristique pretium, mauris purus malesuada mauris.
       </p>
-      <button type="button" class="btn rounded-5 fw-bold p-3 px-5 fs-5 btn-1">Read more</button>
+      <button type="button" class="btn rounded-5 fw-bold p-3 px-5   btn-1">Read more</button>
       </div>
       
     </div>
@@ -167,7 +174,7 @@
    </div>
   </section>
   <!-- What Services -->
-  <section class="container my-5 py-5 d-flex flex-column align-items-center">
+  <section class="container my-5 py-5 d-flex flex-column align-items-center" id="service">
     <h1 class="fw-bold pb-5 text-center w-50 ">What Services we Provide
       for Our Customers</h1>
       
@@ -177,7 +184,7 @@
               <div class="card h-100  border-0 bg-body-tertiary service-card">
                 <a href="#">  <img src="./services-1.png" class="card-img-top" alt="..."></a>
                 <div class="card-body text-center pt-4">
-                  <a href="#" class="text-decoration-none "> <h5 class="card-title   text-black services">Business Audit</h5></a>
+                  <a href="#" class="text-decoration-none "> <h5 class="card-title   text-black services fw-semibold">Business Audit</h5></a>
                 </div>
               </div>
             </div>
@@ -185,7 +192,7 @@
               <div class="card h-100 border-0 bg-body-tertiary service-card">
                 <a href="#"><img src="./services-2.png" class="card-img-top" alt="..."></a>
                 <div class="card-body text-center pt-4">
-                  <a href="#" class="text-decoration-none "> <h5 class="card-title   text-black services">Saving Money</h5></a>
+                  <a href="#" class="text-decoration-none "> <h5 class="card-title   text-black services fw-semibold">Saving Money</h5></a>
                 </div>
               </div>
             </div>
@@ -193,7 +200,7 @@
               <div class="card h-100 border-0 bg-body-tertiary service-card">
                 <a href="#"> <img src="./services-3.png" class="card-img-top" alt="..."></a>
                 <div class="card-body text-center pt-4">
-                  <a href="#" class="text-decoration-none "> <h5 class="card-title   text-black services">HR Consulting</h5></a>
+                  <a href="#" class="text-decoration-none "> <h5 class="card-title   text-black services fw-semibold">HR Consulting</h5></a>
                 </div>
               </div>
             </div>
@@ -201,7 +208,7 @@
               <div class="card h-100  border-0 bg-body-tertiary service-card">
                 <a href="#">  <img src="./services-4.png" class="card-img-top" alt="..."></a>
                 <div class="card-body text-center pt-4">
-                  <a href="#" class="text-decoration-none "> <h5 class="card-title   text-black services">&nbsp  Investment &nbsp&nbsp </h5></a>
+                  <a href="#" class="text-decoration-none "> <h5 class="card-title   text-black services fw-semibold">&nbsp  Investment &nbsp&nbsp </h5></a>
                 </div>
               </div>
             </div>
@@ -220,14 +227,14 @@
 <!-- Welcome to Generic -->
   <section class="welcome">
     <section class="container ">
-    <div class=" bg-warning-subtle p-5 welcome-div position-relative">
-      <h2 class="py-3 mt-5 fw-bold">
+    <div class=" bg-warning-subtle p-5 welcome-div position-relative d-flex flex-column align-items-center align-items-lg-start">
+      <h2 class="py-3 mt-5 fw-semibold">
         Welcome to Generic
       </h2>
-      <p>
+      <p class="text-lg-start text-center">
         Etiam quis lacus ac metus facilisis lobortis get at tortororbi et arcu est. Duis convallis nisl eu vestibulum pellentesq. Aenean non dui sapien. Mauris ornare, nibh a tristiquey pretium, mauris purus malesuada mauris tortororbi et arcu est.
       </p>
-      <button type="button" class="btn rounded-5 fw-bold p-3 px-lg-5 px-md-4 fs-5 btn-1 mb-5 mt-3">Read more</button>
+      <button type="button" class="btn rounded-5 fw-bold p-3 px-lg-5 px-md-4  btn-1 mb-5 mt-3">Read more</button>
     </div>
   </section>
   </section>
@@ -239,37 +246,37 @@
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-0">
         <div class="col">
           <div class="card h-100 shadow border-0 py-2 px-5 rounded-0 d-flex flex-column align-items-center">
-          <h1 class="rounded-circle py-5 bg-body-tertiary m-5 text-center business w-50">01</h1>
+           <h1 class="rounded-circle py-5 bg-body-tertiary m-5 text-center business w-50"><a href="#" class="text-decoration-none text-black">01</a></h1>
             <div class="card-body text-center pt-4">
-              <h5 class="card-title fw-bold">Business Investment</h5>
+              <h5 class="card-title fw-semibold">Business Investment</h5>
               <p class="card-text">Etiam quiacuac metu facils
                 loboreget at tor.
                 </p>
-                <button type="button" class="btn rounded-5 fw-bold p-3 px-lg-5 px-md-4 fs-5 btn-1 mb-5 mt-3">Read more</button>
+                <button type="button" class="btn rounded-5 fw-bold p-3 px-lg-5 px-md-4  btn-1 mb-5 mt-3">Read more</button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 shadow border-0 py-2 px-5 rounded-0 d-flex flex-column align-items-center">
-          <h1 class="rounded-circle py-5 bg-body-tertiary m-5 text-center business w-50">02</h1>
+          <h1 class="rounded-circle py-5 bg-body-tertiary m-5 text-center business w-50"><a href="#" class="text-decoration-none text-black">02</a></h1>
             <div class="card-body text-center pt-4">
-              <h5 class="card-title fw-bold">Business Investment</h5>
+              <h5 class="card-title fw-semibold">Target Marketing</h5>
               <p class="card-text">Etiam quiacuac metu facils
                 loboreget at tor.
                 </p>
-                <button type="button" class="btn rounded-5 fw-bold p-3 px-lg-5 px-md-4 fs-5 btn-1 mb-5 mt-3">Read more</button>
+                <button type="button" class="btn rounded-5 fw-bold p-3 px-lg-5 px-md-4  btn-1 mb-5 mt-3">Read more</button>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100 shadow border-0 py-2 px-5 rounded-0 d-flex flex-column align-items-center">
-          <h1 class="rounded-circle py-5  bg-body-tertiary m-5 text-center business w-50">03</h1>
+          <h1 class="rounded-circle py-5  bg-body-tertiary m-5 text-center business w-50"><a href="#" class="text-decoration-none text-black">03</a></h1>
             <div class="card-body text-center pt-4">
-              <h5 class="card-title fw-bold">Business Investment</h5>
+              <h5 class="card-title fw-semibold">Saving Money</h5>
               <p class="card-text">Etiam quiacuac metu facils
                 loboreget at tor.
                 </p>
-                <button type="button" class="btn rounded-5 fw-bold p-3 px-lg-5 px-md-4 fs-5 btn-1 mb-5 mt-3">Read more</button>
+                <button type="button" class="btn rounded-5 fw-bold p-3 px-lg-5 px-md-4 btn-1 mb-5 mt-3">Read more</button>
             </div>
           </div>
         </div>
@@ -281,10 +288,10 @@
 <section class="container py-5">
   <div class="row row-cols-1 row-cols-lg-2 g-4 my-5">
     <div class="col">
-      <div class="card h-100  border-0 pe-5 ">
-        <h1 class="fw-bold pb-5">Creating a Business with Authentic Integrity</h1>
-        <p>Aenean pellentesque non elit vitae tristique. Nullam feugiat nisl nec neque accumsan porta in at eros. Sed placerat efficitur sem vitae blandit. Cras accumsan mattis elementum. Vivamus at rutrum erat, sit amet consequat neque. Donec gravida sapien ac ex rutrum dapibus. Duis est libero, pulvinar id nulla ut, sagittis cursus lectus. Ut consequat aliquet urna euismod consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin sem, vitae ullamcorper neque urna et enim. Nunc posuere.</p>
-            <button type="button" class="btn w-50 rounded-5 fw-bold p-3  fs-5 btn-1 mt-5 mt-3">Read more</button>
+      <div class="card h-100  border-0 pe-lg-5 px-lg-0 px-4 d-flex flex-column align-items-lg-start align-items-center">
+        <h2 class="fw-semibold pb-5 text-lg-start text-center">Creating a Business with Authentic Integrity</h2>
+        <p class="text-lg-start text-center">Aenean pellentesque non elit vitae tristique. Nullam feugiat nisl nec neque accumsan porta in at eros. Sed placerat efficitur sem vitae blandit. Cras accumsan mattis elementum. Vivamus at rutrum erat, sit amet consequat neque. Donec gravida sapien ac ex rutrum dapibus. Duis est libero, pulvinar id nulla ut, sagittis cursus lectus. Ut consequat aliquet urna euismod consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin sem, vitae ullamcorper neque urna et enim. Nunc posuere.</p>
+            <button type="button" class="btn btn-4 rounded-5 fw-bold py-3  btn-1 mt-5 mt-3">Read more</button>
         </div>
     </div>
     <div class="col">
@@ -303,30 +310,30 @@
   <section class="container py-5">
     <div class="row row-cols-1 row-cols-lg-2 g-4 my-5">
       <div class="col">
-        <div class="card h-100 border-0">
+        <div class="card h-100 border-0 text-center text-lg-start">
          <div class=" follow-div p-5 shadow mb-1 rounded-1">
-          <h4>1. Planning</h4>
+          <h4 class="fw-semibold">1. Planning</h4>
           <p>Lorem ipsum doloamet, consectetur adipiscing
             elit, sed do eiusmod tempor incididunt.</p>
          </div>
          <div class=" follow-div p-5 shadow my-1 rounded-1">
-          <h4>2.Business Growth</h4>
+          <h4 class="fw-semibold">2.Business Growth</h4>
           <p>Lorem ipsum doloamet, consectetur adipiscing
             elit, sed do eiusmod tempor incididunt.</p>
          </div>
          <div class=" follow-div p-5 shadow my-1 rounded-1">
-          <h4>3. Success Mission</h4>
+          <h4 class="fw-semibold">3. Success Mission</h4>
           <p>Lorem ipsum doloamet, consectetur adipiscing
             elit, sed do eiusmod tempor incididunt.</p>
          </div>
         </div>
       </div>
       <div class="col">
-        <div class="card h-100  border-0 ps-5 bg-body-tertiary">
-          <h1 class="fw-bold pb-5 pe-5">We Follow Some Steps To Grow Business
-          </h1>
-          <p class="mb-5 pb-5">Aenean pellentesque non elit vitae tristique. Nullam feugiat nisl nec neque accumsan porta in at eros. Sed placerat efficitur sem vitae blandit. Cras accumsan mattis elementum. Vivamus at rutrum erat, sit amet consequat neque. Donec gravida sapien ac ex rutrum dapibus. Duis est libero, pulvinar id nulla ut, sagittis cursus lectus. Ut consequat aliquet urna euismod consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin sem, vitae ullamcorper neque urna et enim. Nunc posuere.</p>
-              <button type="button" class="btn w-50 rounded-5 fw-bold p-3  fs-5 btn-1 mt-5 ">Read more</button>
+        <div class="card h-100  border-0 ps-lg-5 px-lg-0 px-4 bg-body-tertiary d-flex flex-column align-items-center align-items-lg-start">
+          <h2 class="fw-semibold pb-5 pe-5 text-center text-lg-start">We Follow Some Steps To Grow Business
+          </h2>
+          <p class="mb-5 pb-5 text-center text-lg-start">Aenean pellentesque non elit vitae tristique. Nullam feugiat nisl nec neque accumsan porta in at eros. Sed placerat efficitur sem vitae blandit. Cras accumsan mattis elementum. Vivamus at rutrum erat, sit amet consequat neque. Donec gravida sapien ac ex rutrum dapibus. Duis est libero, pulvinar id nulla ut, sagittis cursus lectus. Ut consequat aliquet urna euismod consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin sem, vitae ullamcorper neque urna et enim. Nunc posuere.</p>
+              <button type="button" class="btn btn-4 rounded-5 fw-bold p-3  btn-1 mt-5 ">Read more</button>
           </div>
       </div>
     </div>
@@ -336,7 +343,7 @@
 <section class="bg-mission py-5">
 <section class="container p-5">
 <div class="text-center position-relative text-white px-5 d-flex flex-column align-items-center">
-  <h1 class="w-75 mb-4">
+  <h1 class="w-75 mb-4 fw-bold">
     Our Mission Is To Protect
 Your Business
   </h1>
@@ -344,17 +351,17 @@ Your Business
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.
   </p>
-  <button type="button" class="btn rounded-5 fw-bold p-3 px-lg-5 px-md-4 fs-5 btn-1 mt-4">Read more</button>
+  <button type="button" class="btn rounded-5 fw-bold p-3 px-lg-5 px-md-4 btn-1 mt-4">Contact Us</button>
 </div>
 </section>
 </section>
 <!-- Business Solutions -->
 <section class="container my-5 py-5 d-flex justify-content-between flex-lg-row flex-column">
-  <div class="me-lg-4 col">
-    <h5 class="find fw-bold">Find The Right Way</h5>
-    <h1 class="mb-5">
+  <div class="me-lg-4 col text-center text-lg-start">
+    <h5 class="find fw-semibold">Find The Right Way</h5>
+    <h2 class="mb-5 fw-semibold">
       Business Solutions For All Enterprises
-    </h1>
+    </h2>
     <p>
       Aenean pellentesque non elit vitae tristique. Nullam feugiat nisl nec neque accumsan porta in at eros. Sed placerat efficitur sem vitae blandit. Cras accumsan mattis eleat
 mentum. Vivamus at rutrum erat, sit amet consequat neque. Donec gravida sapienac ex rutrum dapibus.
@@ -369,7 +376,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
 </section>
 
 <!-- Team Members -->
-<section class="bg-body-tertiary  py-5">
+<section class="bg-body-tertiary  py-5" id="team">
   <section class="container my-5 text-center d-flex flex-column align-items-center">
     <h5 class="find fw-bold">Team Members</h5>
     <h1 class="mb-5 w-50 fw-bold">
@@ -381,7 +388,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
         <div class="card h-100 rounded-0 border-0 bg-light">
           <div class="rounded-circle bg-white m-3 shadow">  <img src="./team-rounded-img-1.jpg" class="card-img-top rounded-circle p-3" alt="..."></div>
           <div class="card-body px-5 mx-4">
-            <h5 class="card-title fw-bold">Marie Martín</h5>
+            <h5 class="card-title fw-semibold">Marie Martín</h5>
             <p class="card-text">Editor-in-chief</p>
             <div class="d-flex justify-content-between ">
              <a href="#" class="text-decoration-none text-black
@@ -400,7 +407,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
         <div class="card h-100 rounded-0 border-0 bg-light">
           <div class="rounded-circle bg-white m-3 shadow"><img src="./team-rounded-img-2.jpg" class="card-img-top rounded-circle p-3" alt="..."></div>
           <div class="card-body px-5 mx-4">
-            <h5 class="card-title fw-bold">Elizabeth Linden</h5>
+            <h5 class="card-title fw-semibold">Elizabeth Linden</h5>
             <p class="card-text">Style Editor</p>
             <div class="d-flex justify-content-between ">
               <a href="#" class="text-decoration-none text-black
@@ -419,7 +426,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
         <div class="card h-100 rounded-0 border-0 bg-light">
          <div class="rounded-circle bg-white m-3 shadow"> <img src="./team-rounded-img-3.jpg" class="card-img-top rounded-circle p-3" alt="..."></div>
           <div class="card-body px-5 mx-4">
-            <h5 class="card-title fw-bold">Janet Smith</h5>
+            <h5 class="card-title fw-semibold">Janet Smith</h5>
             <p class="card-text">Fashion Editor</p>
             <div class="d-flex justify-content-between ">
               <a href="#" class="text-decoration-none text-black
@@ -440,11 +447,10 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
 <!-- Keep Your Business -->
 <section class="container my-5 py-5 text-center d-flex flex-column align-items-center">
   <h1 class="mb-5 w-50 fw-bold">
-    We Have Energetic Team
-    For Organization
+    Keep Your Business Safe & Ensure High Availability.
   </h1> 
   <div class="d-flex justify-content-between flex-lg-row flex-column px-4 px-lg-0 mb-5 pb-5">
-   <p class=" text-lg-start pe-lg-5 pe-0 fs-5">Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt labore etdolormag aliqua. Quis ipsum suspendissea ultricesgr. Risus commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt labore etdolormag aliqua. Quis ipsum suspendissea ultricesgr. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+   <p class=" text-lg-start pe-lg-5 pe-0">Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt labore etdolormag aliqua. Quis ipsum suspendissea ultricesgr. Risus commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit amet, conse adipiscing elit, sed do eiusmod tempor incididunt labore etdolormag aliqua. Quis ipsum suspendissea ultricesgr. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
     <div class=" text-lg-start pe-lg-5">
       <p>
         info@example.com<br>
@@ -467,7 +473,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
       <div class="card h-100 bg-body-tertiary border-0 p-5 rounded-3">
         
         <div class="card-body">
-          <h5 class="card-title pb-3">Cost-Effective</h5>
+          <h5 class="card-title pb-3 fw-semibold">Cost-Effective</h5>
           <p class="card-text">Duis vel leo neque. Vivamustin gravida blandi felis. bibendum aliquam orci, in pellentesqumi mattis at.</p>
         </div>
       </div>
@@ -476,7 +482,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
       <div class="card h-100 bg-body-tertiary border-0 p-5 rounded-3">
  
         <div class="card-body">
-          <h5 class="card-title pb-3">User Experience</h5>
+          <h5 class="card-title pb-3 fw-semibold">User Experience</h5>
           <p class="card-text ">Duis vel leo neque. Vivamustin gravida blandi felis. bibendum aliquam orci, in pellentesqumi mattis at.</p>
         </div>
       </div>
@@ -485,7 +491,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
       <div class="card h-100 bg-body-tertiary border-0 p-5 rounded-3">
       
         <div class="card-body">
-          <h5 class="card-title pb-3">Money-Back Guarantee</h5>
+          <h5 class="card-title pb-3 fw-semibold">Money-Back Guarantee</h5>
           <p class="card-text">Duis vel leo neque. Vivamustin gravida blandi felis. bibendum aliquam orci, in pellentesqumi mattis at.</p>
         </div>
       </div>
@@ -494,29 +500,29 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
 </section>
 <!-- Volunteer -->
 <section class="d-flex flex-lg-row flex-column">
-  <div class="col Volunteer  text-white p-5">
-    <h2 class=" mx-5 my-3 fw-bold">
-      Welcome to Generic
+  <div class="col Volunteer  text-white p-5 d-flex flex-column align-items-center align-items-lg-start">
+    <h2 class=" mx-5 my-3 fw-semibold">
+      Become a Volunteer
     </h2>
-    <p class="ms-5">Etiam quis lacus ac metus facilisis loborteget
+    <p class="ms-lg-5 ms-0 text-center text-lg-start">Etiam quis lacus ac metus facilisis loborteget
       at tortororbi et arcu estuis convallis.</p>
-      <button type="button" class="btn rounded-5 fw-bold p-3 ms-5 px-lg-5 px-md-4 fs-5 btn-3 my-4 text-white">Register Now</button>
+      <button type="button" class="btn rounded-5 fw-bold p-3 ms-lg-5 ms-0 px-lg-5 px-md-4  btn-3 my-4 text-white">Register Now</button>
   </div>
-  <div class="col Consulting  p-5">
-    <h2 class="mx-5 my-3 fw-bold">
-      Welcome to Generic
+  <div class="col Consulting  p-5 d-flex flex-column align-items-center align-items-lg-start">
+    <h2 class="mx-5 my-3 fw-semibold">
+      Get a Free Consulting
     </h2>
-    <p class="ms-5">Etiam quis lacus ac metus facilisis loborteget
+    <p class="ms-lg-5 ms-0 text-center text-lg-start">Etiam quis lacus ac metus facilisis loborteget
       at tortororbi et arcu estuis convallis.</p>
-      <button type="button" class="btn  ms-5 rounded-5 fw-bold p-3 px-lg-4 fs-5 btn-1 my-4">Get Consulting</button>
+      <button type="button" class="btn  ms-lg-5 ms-0 rounded-5 fw-bold p-3 px-lg-5 px-md-4  btn-1 my-4">Contact Us</button>
   </div>
 </section>
 <section class="d-flex flex-column flex-lg-row ">
   <div class="col  p-5 bg-body-tertiary">
     <img src="./on-left-img-1.jpg" class="p-5 img-fluid rounded-5">
   </div>
-  <div class="col  p-5 bg-light-subtle">
-    <h2 class="mx-5 my-5 fw-bold">
+  <div class="col  p-5 bg-light-subtle text-center text-lg-start">
+    <h2 class="mx-5 my-5 fw-semibold">
       Boost Your Business Up To High Level
     </h2>
     <p class="mx-5">Aenean pellentesque non elit vitae tristique. Nullam feu giat nisl nec neque accumsan porta in at eros. Sed plac erat efficitur sem vitae blandit. Cras accumsan mattis elementum. Vivamus at rutrum erat, sit amet consequat neque. Donec gravida sapien ac ex rutrum dapibus. Duis est libero, pulvinar id nulla ut, sagittis cursus lectus. Ut consequat aliquet urna euismod consequat. Donec tris tique, justo ut tempus finibus, tellus justo sollicitudin sem, vitae ullamcorper neque urna et enim. Nunc posuere tortor vel laoreet interdum.</p>
@@ -526,21 +532,21 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
 
 <!-- Client Reviews -->
 <section class="container my-5 py-5 d-flex justify-content-between flex-column flex-lg-row">
-  <div class="pe-5">
-    <h1 class="pb-4 fw-bold">We are Very Glad to Know Our Client Reviews</h1>
-    <p>
+  <div class="pe-lg-5 pe-0 mx-lg-0 mx-4 d-flex flex-column align-items-center align-items-lg-start">
+    <h1 class="pb-4 fw-semibold text-center text-lg-start">We are Very Glad to Know Our Client Reviews</h1>
+    <p class="text-center text-lg-start">
       Aenean pellentesque non elit vitae tristique. Nullam feugiat nisl nec neque accumsan porta in at eros. Sed placerat efficitur sem vitae blandit. Cras accumsan mattis elementum. Vivamus at rutrum erat, sit amet consequat neque. Donec gravida sapien ac ex rutrum dapibus. Duis est libero, pulvinar id nulla ut, sagittis cursus lectus. Ut consequat aliquet urna euismod consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin sem, vitae ullamcorper neque urna et enim. Nunc posuere tortor vel laoreet interdum.
     </p>
-    <button type="button" class="btn  rounded-5 fw-bold p-3 px-lg-4 fs-5 btn-1 my-4">Donate Now!</button>
+    <button type="button" class="btn  rounded-5 fw-bold p-3 px-lg-4  btn-1 my-4">Donate Now!</button>
   </div>
-  <div class="review p-5 text-white fs-4 rounded-2">
+  <div class="review p-5 text-white fs-5 rounded-2">
     <i class="fa-solid fa-quote-left pt-5 pb-3 px-3"></i>
-    <p class=" px-3  fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscingi elit, sed doei tempor incididuut labore et dolore ma aliqua. Quis ipsum suspen ultrices gravida. Risus com viverra maecenas accumsan lacu</p>
-    <p class="fs-5 pb-5 pt-3 px-3">Nicholas Smith</p>
+    <p class=" px-3  fst-italic text-center text-lg-start">Lorem ipsum dolor sit amet, consectetur adipiscingi elit, sed doei tempor incididuut labore et dolore ma aliqua. Quis ipsum suspen ultrices gravida. Risus com viverra maecenas accumsan lacu</p>
+    <p class="fs-6 pb-5 pt-3 px-3 text-center text-lg-start">Nicholas Smith</p>
   </div>
 </section>
 <!-- Gallery -->
-<section class="bg-body-tertiary py-5">
+<section class="bg-body-tertiary py-5" id="gallery">
   <section class="container py-5">
     <h1 class="text-center fw-bold pb-5">Our Photo Gallery</h1>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 gx-1">
@@ -592,12 +598,12 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
 <!-- We work -->
 <section class="work py-5">
 <section class="container my-5">
-<div class="rounded-2 p-5 d-flex justify-content-between flex-column flex-lg-row bg-white">
+<div class="rounded-2 p-5 d-flex justify-content-between flex-column flex-lg-row bg-white ">
 <img src="./poster-img-1.jpg" class="rounded-circle m-4">
-<div class="m-5">
-  <h1 class="fw-bold mb-4">We work with you to address your most critical Business</h1>
-  <p>Etiam quis lacus ac metus facilisis lobortis eget at tort ororbi et arest. Duis convallis nisl eu vestibulum pel lentesqe. Aenean non dui sapien. Mauris ornare nibha tristique pretium mauris.</p>
-  <button type="button" class=" text-white border-0 rounded-5 fw-bold p-3 px-lg-5 px-md-4 fs-5 btn-3 mt-4">Register Now</button>
+<div class="m-5 d-flex flex-column align-items-center align-items-lg-start">
+  <h2 class="fw-semibold mb-4 text-center text-lg-start">We work with you to address your most critical Business</h2>
+  <p class="text-center text-lg-start">Etiam quis lacus ac metus facilisis lobortis eget at tort ororbi et arest. Duis convallis nisl eu vestibulum pel lentesqe. Aenean non dui sapien. Mauris ornare nibha tristique pretium mauris.</p>
+  <button type="button" class=" text-white border-0 rounded-5 fw-bold p-3 px-lg-5 px-md-4 btn-3 mt-4">Register Now</button>
 </div>
 </div>
 </section>
@@ -611,22 +617,22 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
     <div class="col">
       <div class="card h-100 border-0">
         <img src="./news-img-1.jpg" class="card-img-top" alt="...">
-        <div class="card-body p-0 pt-5">
-          <a href="#" class="text-decoration-none text-black"> <h4 class="card-title new fw-bold pb-3">A Business Consulting That Can Produce</h4></a>
-          <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,…
+        <div class="card-body p-0 pt-5 d-flex flex-column align-items-center align-items-lg-start">
+          <a href="#" class="text-decoration-none text-black"> <h4 class="card-title new fw-semibold pb-3 text-center text-lg-start">A Business Consulting That Can Produce</h4></a>
+          <p class="card-text text-center text-lg-start">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,…
           </p>
-          <button type="button" class="btn  rounded-5 p-3 px-lg-4 fs-5 btn-1 my-4">Continue Reading</button>
+          <button type="button" class="btn  rounded-5 p-3 px-lg-4 btn-1 my-4">Continue Reading</button>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="card h-100 border-0">
         <img src="./news-img-2.jpg" class="card-img-top" alt="...">
-        <div class="card-body p-0 pt-5">
-          <a href="#" class="text-decoration-none text-black"> <h4 class="card-title new fw-bold pb-3">A Business Consulting That Can Produce</h4></a>
-          <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,…
+        <div class="card-body p-0 pt-5 d-flex flex-column align-items-center align-items-lg-start">
+          <a href="#" class="text-decoration-none text-black"> <h4 class="card-title new fw-semibold pb-3 text-center text-lg-start">A Business Consulting That Can Produce</h4></a>
+          <p class="card-text text-center text-lg-start">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,…
           </p>
-          <button type="button" class="btn  rounded-5 p-3 px-lg-4 fs-5 btn-1 my-4">Continue Reading</button>
+          <button type="button" class="btn  rounded-5 p-3 px-lg-4 btn-1 my-4">Continue Reading</button>
         </div>
       </div>
     </div>
@@ -635,15 +641,15 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
 <!-- Offering -->
 <section class="bg-body-tertiary py-5">
 <section class="container d-flex flex-column my-5">
-  <h1 class="text-center fw-bold mb-5 w-50 align-self-center">What’s New in Business
-    Area to Know
+  <h1 class="text-center fw-bold mb-5 w-50 align-self-center">Offering Our Best Plan For Your
+    Business Purpose
     </h1>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
       <div class="col">
         <div class="card h-100 shadow border-0 py-5">
          
           <div class="card-body ">
-            <h3 class="card-title fw-bold mb-4 text-center text-lg-start">Starter Plan</h3><hr class="mb-4">
+            <h3 class="card-title fw-semibold mb-4 text-center text-lg-start">Starter Plan</h3><hr class="mb-4">
             <div class="d-flex flex-column align-items-center align-items-lg-start">
             <div>
             <p> <i class="fa-solid fa-chevron-right me-3"></i> Limited Install</p>
@@ -653,7 +659,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
             <p> <i class="fa-solid fa-chevron-right me-3"></i> 30GB Storage</p>
           </div>
   
-            <button type="button" class="btn fw-bold rounded-5 p-3 px-md-4 px-lg-5 fs-5 btn-1 mt-5">$110 / year</button>
+            <button type="button" class="btn fw-bold rounded-5 p-3 px-md-4 px-lg-5 btn-1 mt-5">$110 / year</button>
           </div>
           </div>
         </div>
@@ -662,7 +668,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
         <div class="card h-100 shadow border-0 py-5">
 
           <div class="card-body">
-            <h3 class="card-title fw-bold mb-4 text-center text-lg-start">Agency Plan</h3><hr class="mb-4">
+            <h3 class="card-title fw-semibold mb-4 text-center text-lg-start">Agency Plan</h3><hr class="mb-4">
             <div class="d-flex flex-column align-items-center align-items-lg-start">
             <div>
             <p> <i class="fa-solid fa-chevron-right me-3"></i> Limited Install</p>
@@ -671,7 +677,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
             <p> <i class="fa-solid fa-chevron-right me-3"></i> Free 15GB Linux Hosting</p>
             <p> <i class="fa-solid fa-chevron-right me-3"></i> 30GB Storage</p>
             </div>
-            <button type="button" class="btn fw-bold rounded-5 p-3 px-md-4 px-lg-5 fs-5 btn-1 mt-5">$200 / year</button>
+            <button type="button" class="btn fw-bold rounded-5 p-3 px-md-4 px-lg-5 btn-1 mt-5">$200 / year</button>
           </div>
           </div>
         </div>
@@ -680,7 +686,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
         <div class="card h-100 shadow border-0 py-5">
  
           <div class="card-body ">
-            <h3 class="card-title fw-bold mb-4 text-center text-lg-start">Enterprise Plan</h3><hr class="mb-4">
+            <h3 class="card-title fw-semibold mb-4 text-center text-lg-start">Enterprise Plan</h3><hr class="mb-4">
             <div class="d-flex flex-column align-items-center align-items-lg-start">
             <div>
             <p> <i class="fa-solid fa-chevron-right me-3"></i> Limited Install</p>
@@ -689,7 +695,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
             <p> <i class="fa-solid fa-chevron-right me-3"></i> Free 15GB Linux Hosting</p>
             <p> <i class="fa-solid fa-chevron-right me-3"></i> 30GB Storage</p>
           </div>
-            <button type="button" class="btn fw-bold rounded-5 p-3 px-md-4 px-lg-5 fs-5 btn-1 mt-5">$300 / year</button>
+            <button type="button" class="btn fw-bold rounded-5 p-3 px-md-4 px-lg-5 btn-1 mt-5">$300 / year</button>
             </div>
           </div>
         </div>
@@ -701,15 +707,15 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
 <!-- Need Any -->
 <section class="need py-5">
   <section class="container d-flex justify-content-between py-5 flex-column flex-lg-row align-items-center">
-    <h1 class="fw-bold text-white  col-8 mb-3 mb-lg-0">Need Any Business Consulting Facilities? Contact With Us</h1>
+    <h1 class="fw-semibold text-white  col-8 mb-3 mb-lg-0">Need Any Business Consulting Facilities? Contact With Us</h1>
     <div class="col-4 d-flex align-items-start">
-    <button type="button" class="btn fw-bold rounded-5 p-3 px-md-4 px-lg-5 fs-5 btn-2 ms-auto">Contact Us</button>
+    <button type="button" class="btn fw-bold rounded-5 p-3 px-md-4 px-lg-5  btn-2 ms-auto">Contact Us</button>
   </div>
   </section>
 </section>
 <!-- Contact Info -->
-<section class="container my-5 py-5 d-flex justify-content-between flex-column flex-lg-row">
-  <div class="me-0 me-lg-5 pe-0 pe-lg-5 text-center text-lg-start">
+<section class="container my-5 py-5 d-flex justify-content-between flex-column flex-lg-row" id="contact">
+  <div class="me-0 me-lg-5 pe-0 pe-lg-5 text-center text-lg-start d-flex flex-column align-items-center align-items-lg-start">
     <h1 class="fw-bold mb-4">Contact Info</h1>
     <p>123 Columbia St, Brooklyn street, NY
       12345, United States</p>
@@ -741,7 +747,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
 <!-- Our Partners -->
 <section class="bg-body-tertiary py-5">
 <section class="container my-5 ">
-  <h1 class="text-center mb-5">Our Partners</h1>
+  <h1 class="text-center mb-5 fw-bold">Our Partners</h1>
   <div class="d-flex bg-white rounded-1 justify-content-between align-items-center flex-column flex-lg-row p-5">
     <div><img src="./partners-logo-img-1.jpg" alt="" class="img-fluid "></div>
     <div> <img src="./partners-logo-img-2.jpg" alt="" class="img-fluid "></div>
@@ -757,13 +763,13 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
   <div class="d-flex justify-content-between mb-5 pb-5 flex-column flex-lg-row">
     <div class="text-white col text-center text-lg-start mb-3 mb-lg-0">
       <h5>NEWSLETTER</h5>
-      <h1>Get Instant access to our
-        weekly newsletter</h1>
+      <h2 class="fw-bold me-0 me-lg-5">Get Instant access to our
+        weekly newsletter</h2>
     </div>
     <div class=" bg-white rounded-2  py-5 px-3  col">
    <form action="" class="d-flex justify-content-between">
     <input type="email" name="" id="" placeholder="Email Address" class="w-50 border-0 bg-body-tertiary">
-    <button type="button" class="btn fw-bold rounded-3 p-3 px-lg-4 fs-5 btn-1 ms-auto text-uppercase">subscribe</button>
+    <button type="button" class="btn fw-bold rounded-3 p-3 px-lg-4 btn-1 ms-auto text-uppercase">subscribe</button>
    </form>
   </div>
   </div>
@@ -773,7 +779,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
       <div class="card h-100 bg-dark text-white border-0" >
         
         <div class="card-body text-center text-lg-start">
-          <h4 class="card-title mb-4">About Generic</h4>
+          <h4 class="card-title mb-4 fw-semibold">About Generic</h4>
           <p class="card-text">Suspendisse interdum, nisi nec effiitur auctor, odio lcongue ligula, se sodales tortor turpis at elit. Aliquam iacipsum ut odio variusid interdum lac dictum. Mauris a maximusey dolovestibuorbi non vestibulum.</p>
         </div>
       </div>
@@ -782,7 +788,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
       <div class="card h-100 bg-dark text-white border-0">
        
         <div class="card-body d-flex flex-column align-items-center align-items-lg-start">
-          <h4 class="card-title mb-4">Services</h4>
+          <h4 class="card-title mb-4 fw-semibold">Services</h4>
           <div>
            <p> <a href="#" class="text-decoration-none text-white link"> <i class="fa-solid fa-chevron-right me-3"></i>Business Audit</a></p> 
            <p> <a href="#" class="text-decoration-none text-white link"> <i class="fa-solid fa-chevron-right me-3"></i>Saving Money</a> </p>
@@ -797,13 +803,14 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
       <div class="card h-100 bg-dark text-white border-0">
        
         <div class="card-body d-flex flex-column align-items-center align-items-lg-start">
-          <h4 class="card-title mb-4">Quick Links</h4>
+          <h4 class="card-title mb-4 fw-semibold">Quick Links</h4>
           <div>
           <p>  <a href="#" class="text-decoration-none text-white link"> <i class="fa-solid fa-chevron-right me-3"></i>Home</a> </p>
            <p> <a href="#" class="text-decoration-none text-white link"> <i class="fa-solid fa-chevron-right me-3"></i>About Us</a> </p>
           <p> <a href="#" class="text-decoration-none text-white link"> <i class="fa-solid fa-chevron-right me-3"></i>Services</a> </p>  
-          <p>  <a href="#" class="text-decoration-none text-white link"> <i class="fa-solid fa-chevron-right me-3"></i>Blog</a> </p>
-          <p>  <a href="#" class="text-decoration-none text-white link"> <i class="fa-solid fa-chevron-right me-3"></i>Contact Us</a> </p>
+          <p>  <a href="#" class="text-decoration-none text-white link"> <i class="fa-solid fa-chevron-right me-3"></i>team member</a> </p>
+          <p>  <a href="#" class="text-decoration-none text-white link"> <i class="fa-solid fa-chevron-right me-3"></i>Gallery</a> </p>
+          <p>  <a href="#" class="text-decoration-none text-white link"> <i class="fa-solid fa-chevron-right me-3"></i>Contact</a> </p>
              </div>
         </div>
       </div>
@@ -812,7 +819,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
       <div class="card h-100 bg-dark text-white border-0">
         
         <div class="card-body text-center text-lg-start">
-          <h4 class="card-title mb-4">Contact Info</h4>
+          <h4 class="card-title mb-4 fw-semibold">Contact Info</h4>
           <p class="card-text">Street 238,52 tempor Donec ultricies mattis nulla, suscipit risus tristique ut.</p>
           <p class="mt-5"> Phone:
 
@@ -832,7 +839,7 @@ consequat. Donec tristique, justo ut tempus finibus, tellus justo sollicitudin s
   <hr class="border-light">
   <div class="d-flex justify-content-between text-light mt-5 flex-column flex-lg-row text-center text-lg-start">
     <p>© Copyright 2022 SKT Generic Pro. All Rights Reserved</p>
-    <h5 >Design by NIPA</h5>
+    <h5 >Design by <span class="fw-bold">NIPA</span></h5>
   </div>
 </section>
 </section>
