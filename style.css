@@ -81,7 +81,14 @@ body, button{
     color: white;
    }
    .carousel-caption h1{
-    font-size: 4vw !important;
+    font-size: 9vh !important;
+    width: 75%;
+   }
+   @media  only screen and (min-width: 200px) and (max-width: 991px) { 
+    .carousel-caption h1{
+        font-size: 6vh !important;
+        width: 100% !important;
+       }
    }
    .carousel-caption h5{
     /* font-size: 2vw !important; */
@@ -92,7 +99,7 @@ body, button{
    @media  only screen and (min-width: 200px) and (max-width: 991px) {
     .carousel-caption h5{
         /* font-size: 2vw !important; */
-        width: 80%;
+        width: 100%;
        }
    }
 
