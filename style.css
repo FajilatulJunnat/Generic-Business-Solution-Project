@@ -46,9 +46,14 @@ body, button{
     object-fit: cover !important;
     
 }
-@media  only screen and (min-width: 200px) and (max-width: 991px) {
+@media  only screen and (min-width: 200px) and (max-width: 600px) {
     .carousel-item img{
-        height: 80vh;
+        height: 85vh;
+    } 
+}
+@media  only screen and (min-width: 601px) and (max-width: 991px) {
+    .carousel-item img{
+        height: 70vh;
     } 
 }
 .carousel-caption{
@@ -84,9 +89,15 @@ body, button{
     font-size: 9vh !important;
     width: 75%;
    }
-   @media  only screen and (min-width: 200px) and (max-width: 991px) { 
+   @media  only screen and (min-width: 601px) and (max-width: 991px) { 
     .carousel-caption h1{
         font-size: 6vh !important;
+        width: 100% !important;
+       }
+   }
+   @media  only screen and (min-width: 200px) and (max-width: 600px) { 
+    .carousel-caption h1{
+        font-size: 5vh !important;
         width: 100% !important;
        }
    }
@@ -217,6 +228,11 @@ body, button{
    .btn-4{
     width: 35%;
    }
+   @media  only screen and (min-width: 200px) and (max-width: 600px) {
+   .btn-4{
+    width: 45%;
+   }
+}
    /* We Follow */
    .follow-div{
     background-color: rgb(68, 146, 68) !important ;
