@@ -48,7 +48,7 @@ body, button{
 }
 @media  only screen and (min-width: 200px) and (max-width: 991px) {
     .carousel-item img{
-        height: 70vh;
+        height: 80vh;
     } 
 }
 .carousel-caption{
@@ -117,6 +117,19 @@ body, button{
    }
    }
 /* What Services */
+.what{
+    width: 50% !important;
+}
+@media  only screen and (min-width: 601px) and (max-width: 991px) {
+    .what{
+        width: 70% !important;
+    }
+}
+@media  only screen and (min-width: 200px) and (max-width: 600px) {
+    .what{
+        width: 80% !important;
+    }
+}
 
    .services:hover{
     color: rgb(68, 146, 68) !important;
@@ -186,6 +199,20 @@ body, button{
    .business:hover a{
     color: white !important;
    }
+   .our{
+    width: 25% !important;
+}
+@media  only screen and (min-width: 601px) and (max-width: 991px) {
+    .our{
+        width: 50% !important;
+    }
+}
+@media  only screen and (min-width: 200px) and (max-width: 600px) {
+    .our{
+        width: 70% !important;
+    }
+}
+
    /* Creating a Business */
    .btn-4{
     width: 35%;
